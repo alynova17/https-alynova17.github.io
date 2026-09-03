@@ -1,170 +1,223 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALYNOVA | Personal Website</title><style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
 
-    body {
-        font-family: Arial, sans-serif;
-        background: #f5f7fb;
-        color: #222;
-        line-height: 1.6;
-    }
+    <title>Alynova</title>
 
-    header {
-        background: #111827;
-        color: white;
-        padding: 18px 8%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    header h2 {
-        font-size: 24px;
-    }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7f6;
+            color: #222;
+        }
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin-left: 20px;
-    }
-
-    .hero {
-        text-align: center;
-        padding: 100px 20px;
-        background: linear-gradient(135deg, #dbeafe, #dcfce7);
-    }
-
-    .hero h1 {
-        font-size: 52px;
-        margin-bottom: 15px;
-    }
-
-    .hero p {
-        font-size: 20px;
-        color: #555;
-        margin-bottom: 25px;
-    }
-
-    .button {
-        display: inline-block;
-        background: #111827;
-        color: white;
-        padding: 12px 25px;
-        border-radius: 8px;
-        text-decoration: none;
-    }
-
-    section {
-        padding: 60px 8%;
-        text-align: center;
-    }
-
-    section h2 {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
-
-    .cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 30px;
-    }
-
-    .card {
-        background: white;
-        width: 280px;
-        padding: 30px 20px;
-        border-radius: 15px;
-        box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    }
-
-    .card h3 {
-        margin-bottom: 10px;
-    }
-
-    .card a {
-        display: inline-block;
-        margin-top: 15px;
-        color: #2563eb;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    footer {
-        background: #111827;
-        color: white;
-        text-align: center;
-        padding: 25px;
-    }
-
-    @media (max-width: 600px) {
         header {
-            flex-direction: column;
-            gap: 10px;
+            background: #12372a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        nav {
+            margin-top: 12px;
         }
 
         nav a {
-            margin: 0 6px;
-            font-size: 14px;
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
         }
 
-        .hero h1 {
-            font-size: 38px;
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #d8f3dc, #b7e4c7);
         }
-    }
-</style>
 
-</head><body><header>
-    <h2>ALYNOVA</h2><nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#documents">Documents</a>
-</nav>
+        .hero h2 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
 
-</header><section class="hero" id="home">
-    <h1>Welcome to ALYNOVA</h1>
+        .hero p {
+            font-size: 19px;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+            color: #12372a;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .pdf-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: #12372a;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #12372a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ALYNOVA</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#pdfs">PDFs</a>
+    </nav>
+</header>
+
+
+<section class="hero" id="home">
+    <h2>Welcome to Alynova 🌿</h2>
     <p>My personal website and digital space.</p>
-    <a class="button" href="#about">Explore Website</a>
-</section><section id="about">
+</section>
+
+
+<section id="about">
     <h2>About Me</h2>
     <p>
-        Welcome to my website. This is my personal space where
-        I can share my work, documents, photos and projects.
+        Welcome to my website. Here I can share my
+        documents, projects, photos and other work.
     </p>
-</section><section id="documents">
-    <h2>BIOLOGY </h2>
-    <p>Important PDFs and documents will be available here.</p><div class="cards">
+</section>
 
-    <div class="card">
-        <h3>The Living World.pdf</h3>
-        <p>My first document.</p>
-        <a href="The%20Living%20World.pdf" target="_blank">The Living World.pdf →</a>
+
+<section id="pdfs">
+
+    <h2>My PDF Documents 📚</h2>
+
+    <p>Click a button below to open a PDF.</p>
+
+    <div class="cards">
+
+
+        <!-- PDF 1 -->
+        <div class="card">
+            <h3>The Living World</h3>
+            <p>PDF Document 1</p>
+
+            <a class="pdf-button"
+               href="The%20Living%20World.pdf"
+               target="_blank">
+               📄 Open PDF
+            </a>
+        </div>
+
+
+        <!-- PDF 2 -->
+        <div class="card">
+            <h3>PDF Document 2</h3>
+            <p>My second PDF</p>
+
+            <a class="pdf-button"
+               href="YOUR-PDF-2.pdf"
+               target="_blank">
+               📄 Open PDF
+            </a>
+        </div>
+
+
+        <!-- PDF 3 -->
+        <div class="card">
+            <h3>PDF Document 3</h3>
+            <p>My third PDF</p>
+
+            <a class="pdf-button"
+               href="YOUR-PDF-3.pdf"
+               target="_blank">
+               📄 Open PDF
+            </a>
+        </div>
+
+
+        <!-- PDF 4 -->
+        <div class="card">
+            <h3>PDF Document 4</h3>
+            <p>My fourth PDF</p>
+
+            <a class="pdf-button"
+               href="YOUR-PDF-4.pdf"
+               target="_blank">
+               📄 Open PDF
+            </a>
+        </div>
+
+
+        <!-- PDF 5 -->
+        <div class="card">
+            <h3>PDF Document 5</h3>
+            <p>My fifth PDF</p>
+
+            <a class="pdf-button"
+               href="YOUR-PDF-5.pdf"
+               target="_blank">
+               📄 Open PDF
+            </a>
+        </div>
+
+
     </div>
 
-    <div class="card">
-        <h3>The Living World.pdf 2</h3>
-        <p>My second document.</p>
-        <a href="The%20Living%20World%20pdf%202.pdf" target="_blank">The Living World.pdf 2 →</a>
-    </div>
+</section>
 
-    <div class="card">
-        <h3>"The Living World.pdf" </h3>
-        <p>My third document.</p>
-        <a href="The%20Living%20World.pdf" target="_blank">The Living World.pdf →</a>
-    </div>
 
-</div>
+<footer>
+    <p>© 2026 Alynova. All Rights Reserved.</p>
+</footer>
 
-</section><footer>
-    <p>© 2026 ALYNOVA. All Rights Reserved.</p>
-</footer></body>
-    </html>
+</body>
+        </html>
