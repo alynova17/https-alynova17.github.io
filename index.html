@@ -1,72 +1,170 @@
-<div class="box">
-    <h2>My PDFs 📚</h2>
-
-    <p><a href="Cell cycle & Cell Division PYQ.pdf" target="_blank">📄 314-biology-apr-2026.pdf</a></p>
-    <p><a href="Biological Classification Exercise .pdf" target="_blank">📄 Open PDF 2</a></p>
-    <p><a href="Measurement and Dimension of Physical Quantity.pdf" target="_blank">📄 Open PDF 3</a></p>
-    <p><a href="NEET_2026_Answer_Key_Solution_Code_11_Download.pdf (1).pdf" target="_blank">📄 Open PDF 4</a></p>
-    <p><a href="Structural Organisation in Animals DPP.pdf" target="_blank">📄 Open PDF 5</a></p>
-</div>!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-    <title>Alynova - My Website</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #87CEEB, #90EE90);
-            color: #222;
-            text-align: center;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alynova | Personal Website</title><style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f7fb;
+        color: #222;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #111827;
+        color: white;
+        padding: 18px 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 100px 20px;
+        background: linear-gradient(135deg, #dbeafe, #dcfce7);
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 25px;
+    }
+
+    .button {
+        display: inline-block;
+        background: #111827;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+
+    section {
+        padding: 60px 8%;
+        text-align: center;
+    }
+
+    section h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .card {
+        background: white;
+        width: 280px;
+        padding: 30px 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+    }
+
+    .card a {
+        display: inline-block;
+        margin-top: 15px;
+        color: #2563eb;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    footer {
+        background: #111827;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    @media (max-width: 600px) {
+        header {
+            flex-direction: column;
+            gap: 10px;
         }
 
-        .hero {
-            padding: 100px 20px;
+        nav a {
+            margin: 0 6px;
+            font-size: 14px;
         }
 
-        h1 {
-            font-size: 55px;
-            margin-bottom: 10px;
+        .hero h1 {
+            font-size: 38px;
         }
+    }
+</style>
 
-        p {
-            font-size: 20px;
-        }
+</head><body><header>
+    <h2>ALYNOVA</h2><nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#documents">Documents</a>
+</nav>
 
-        .box {
-            background: white;
-            margin: 20px auto;
-            padding: 30px;
-            max-width: 600px;
-            border-radius: 20px;
-        }
+</header><section class="hero" id="home">
+    <h1>Welcome to Alynova</h1>
+    <p>My personal website and digital space.</p>
+    <a class="button" href="#about">Explore Website</a>
+</section><section id="about">
+    <h2>About Me</h2>
+    <p>
+        Welcome to my website. This is my personal space where
+        I can share my work, documents, photos and projects.
+    </p>
+</section><section id="documents">
+    <h2>My Documents 📄</h2>
+    <p>Important PDFs and documents will be available here.</p><div class="cards">
 
-        h2 {
-            color: #167d3e;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="hero">
-        <h1>Welcome to Alynova 🌿</h1>
-        <p>Welcome to my personal website!</p>
+    <div class="card">
+        <h3>PDF Document 1</h3>
+        <p>My first document.</p>
+        <a href="#">Open PDF →</a>
     </div>
 
-    <div class="box">
-        <h2>About Me</h2>
-        <p>Hello! This is my website. I am learning how to create websites with GitHub.</p>
+    <div class="card">
+        <h3>PDF Document 2</h3>
+        <p>My second document.</p>
+        <a href="#">Open PDF →</a>
     </div>
 
-    <div class="box">
-        <h2>My Interests 🌟</h2>
-        <p>Nature • Photography • Creativity • Technology</p>
+    <div class="card">
+        <h3>PDF Document 3</h3>
+        <p>My third document.</p>
+        <a href="#">Open PDF →</a>
     </div>
 
-    <div class="box">
-        <h2>Thank You ❤️</h2>
-        <p>Thank you for visiting my website!</p>
-    </div>
+</div>
 
-</body>
-</html>
+</section><footer>
+    <p>© 2026 Alynova. All Rights Reserved.</p>
+</footer></body>
+    </html>
